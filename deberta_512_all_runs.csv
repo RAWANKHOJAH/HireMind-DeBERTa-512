@@ -1,0 +1,23 @@
+model,configuration,max_len,epochs,seed,best_epoch,accuracy,macro_f1,good_fit_recall,good_fit_precision,potential_recall,beats_baseline_acc_and_gf_recall,passes_full_rule
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D0 (E0)",512,5,42,4,51.98,44.9,43.94,34.79,21.43,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D0 (E0)",512,5,43,5,53.87,41.95,17.3,43.86,26.53,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D0 (E0)",512,5,44,5,54.82,45.49,26.99,33.48,28.91,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D1 (E1)",512,5,42,3,53.87,46.44,44.64,41.08,21.09,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D1 (E1)",512,5,43,5,58.69,51.68,38.75,49.12,35.03,True,True
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge only, D1 (E1)",512,5,44,4,54.82,47.29,34.26,38.08,30.27,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,42,5,52.41,44.21,29.07,37.17,26.87,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,43,4,54.99,47.37,36.68,38.97,28.23,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,44,5,58.43,53.65,50.52,40.56,38.78,True,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,45,5,55.34,49.75,26.64,38.12,56.12,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,46,5,58.86,51.27,58.48,49.42,20.75,True,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,47,5,57.57,51.08,49.83,46.45,27.89,True,True
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,48,4,57.66,53.3,34.95,56.42,54.42,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D0 (E2)",512,5,49,4,47.76,42.33,38.75,31.2,24.83,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,42,5,55.08,47.05,29.07,38.53,33.67,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,43,5,59.55,54.56,39.45,56.16,47.96,True,True
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,44,5,57.66,52.64,49.48,50.53,34.69,True,True
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,45,5,56.28,48.41,21.45,48.06,49.32,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,46,3,59.12,53.23,59.52,48.31,27.89,True,True
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,47,5,59.72,52.76,56.75,50.46,24.83,True,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,48,5,55.68,47.51,36.68,46.7,25.85,False,False
+DeBERTa-v3-small (microsoft/deberta-v3-small),"Knowledge + evidence, D1 (E2)",512,5,49,3,54.73,41.7,23.18,49.63,16.67,False,False
